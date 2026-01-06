@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
-from db import logs_collection
+from backend.db import logs_collection
 from bson import ObjectId
 from fastapi.middleware.cors import CORSMiddleware
 
