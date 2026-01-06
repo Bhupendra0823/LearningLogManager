@@ -87,3 +87,10 @@ def delete_log(log_id: str):
     if result.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Log not found")
     return {"message": "Log deleted successfully"}
+
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "service": "Learner Log Manager"
+    }
