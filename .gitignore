@@ -1,0 +1,4 @@
+LLMenv
+.env
+__pycache__/
+backend/__pycache__/
