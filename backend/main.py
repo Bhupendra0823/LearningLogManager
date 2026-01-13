@@ -11,11 +11,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://bkumar0823.space",
-<<<<<<< HEAD
         "https://bkumar-portfolio.onrender.com",
-=======
-        "https://bkumar-portfolio.onrender.com"
->>>>>>> 470f6ffa93604b4a81b3249372cf17d599ae813e
         "http://localhost:5173",
         "all"
     ],
