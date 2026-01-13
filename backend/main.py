@@ -12,6 +12,8 @@ app.add_middleware(
     allow_origins=[
         "https://bkumar0823.space",
         "https://bkumar-portfolio.onrender.com",
+        "https://learninglogmanager.onrender.com/openapi.json",
+        "https://learninglogmanager.onrender.com",
         "http://localhost:5173",
         "all"
     ],
